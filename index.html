@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ست الحُسن - بوتيك أزياء محجبات عصرية بتصاميم أنيقة مستوحاة من التراث المصري.">
+    <title>ست الحُسن - Sit El Hosn | أزياء محجبات عصرية</title>
+
+    <!-- Google Fonts (Cairo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons (Optional - you can use SVGs/Images too) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container header-container">
+            <!-- Logo -->
+            <a href="#home" class="logo">
+                <!-- Make sure images/logo-placeholder.png exists -->
+                <img src="images/logo-placeholder.png" alt="ست الحُسن Logo">
+                <span>ست الحُسن</span>
+            </a>
+
+            <!-- Navigation -->
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                    <li><a href="#shop" class="nav-link">المتجر</a></li>
+                    <li><a href="#about" class="nav-link">من نحن</a></li>
+                    <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+     <!-- Mobile Menu (Initially Hidden) -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home" class="mobile-nav-link">الرئيسية</a></li>
+            <li><a href="#shop" class="mobile-nav-link">المتجر</a></li>
+            <li><a href="#about" class="mobile-nav-link">من نحن</a></li>
+            <li><a href="#contact" class="mobile-nav-link">تواصل معنا</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+         <!-- Ensure images/hero-bg.jpg exists and CSS points to it -->
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="animate-fade-in-up">أناقة الحجاب بلمسة عصرية</h1>
+            <p class="animate-fade-in-up delay-1">اكتشفي أحدث تشكيلاتنا من ملابس المحجبات الراقية.</p>
+            <a href="#shop" class="cta-button animate-fade-in-up delay-2">تسوقي الآن</a>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="shop" class="featured-products section-padding">
+        <div class="container">
+            <h2 class="section-title">مجموعة مختارة</h2>
+            <div class="product-grid">
+                <!-- Product Card 1 -->
+                <div class="product-card animate-on-scroll">
+                    <!-- Ensure images/product1.jpg exists -->
+                    <img src="images/product1.jpg" alt="فستان أنيق" class="product-image">
+                    <h3 class="product-name">فستان سهرة حرير</h3>
+                    <p class="product-price">750 جنيه مصري</p>
+                    <button class="btn btn-primary">أضف إلى السلة</button>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="product-card animate-on-scroll">
+                     <!-- Ensure images/product2.jpg exists -->
+                    <img src="images/product2.jpg" alt="حجاب مطرز" class="product-image">
+                    <h3 class="product-name">حجاب شيفون مطرز</h3>
+                    <p class="product-price">220 جنيه مصري</p>
+                    <button class="btn btn-primary">أضف إلى السلة</button>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="product-card animate-on-scroll">
+                     <!-- Ensure images/product3.jpg exists -->
+                    <img src="images/product3.jpg" alt="عباية كاجوال" class="product-image">
+                    <h3 class="product-name">عباية يومية قطن</h3>
+                    <p class="product-price">580 جنيه مصري</p>
+                    <button class="btn btn-primary">أضف إلى السلة</button>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="product-card animate-on-scroll">
+                     <!-- Ensure images/product4.jpg exists -->
+                    <img src="images/product4.jpg" alt="بلوزة بتصميم فريد" class="product-image">
+                    <h3 class="product-name">بلوزة بتصميم فريد</h3>
+                    <p class="product-price">400 جنيه مصري</p>
+                    <button class="btn btn-primary">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">عن ست الحُسن</h2>
+            <div class="about-content">
+                <p>
+                    "ست الحُسن" ليست مجرد علامة تجارية، بل هي احتفاء بالمرأة العربية العصرية التي تعتز بهويتها وحجابها. تأسست في قلب مصر، ونستلهم تصاميمنا من ثراء ثقافتنا مع إضافة لمسة من الحداثة والأناقة.
+                </p>
+                <p>
+                    مهمتنا هي تمكين المرأة المحجبة من خلال توفير أزياء راقية ومحتشمة تعكس ذوقها الرفيع وتمنحها الثقة في كل خطواتها. نؤمن بأن الحشمة والأناقة يمكن أن يجتمعا في تصميم واحد، وهذا ما نسعى لتحقيقه في كل قطعة نقدمها.
+                </p>
+                 <p>
+                    نختار أجود الأقمشة ونعتني بأدق التفاصيل لنقدم لكِ تجربة فريدة تليق بـ"ست الحُسن" التي بداخلك.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا</h2>
+            <p class="section-subtitle">نسعد باستقبال استفساراتكم واقتراحاتكم.</p>
+            <form id="contact-form" class="contact-form" novalidate> <!-- Added novalidate to prevent browser default validation -->
+                <div class="form-group">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+                    <small class="error-message"></small>
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+                    <small class="error-message"></small>
+                </div>
+                <div class="form-group">
+                    <label for="message">رسالتك:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <small class="error-message"></small>
+                </div>
+                <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                <div id="form-status" class="form-status"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#home">الرئيسية</a>
+                    <a href="#shop">المتجر</a>
+                    <a href="#about">من نحن</a>
+                    <a href="#contact">تواصل معنا</a>
+                    <!-- Add other links like Privacy Policy, Terms if needed -->
+                </div>
+                <div class="social-icons">
+                    <a href="https://instagram.com/sit_el_hosn" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com/sit_el_hosn" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <!-- Replace YOUR_WHATSAPP_NUMBER with your actual number including country code -->
+                </div>
+                <p class="copyright">&copy; 2024 ست الحُسن. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
